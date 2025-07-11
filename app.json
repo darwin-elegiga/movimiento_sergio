@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Movimiento de Alcance Mundial",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icono.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icono.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F61B5"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tuorganizacion.movimiento"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icono.png",
+        "backgroundColor": "#0F61B5"
+      },
+      "package": "com.darwin_alejandro.myapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c5ab86db-6af1-4318-a185-d567aa129f38"
+      }
+    }
+  }
+}
